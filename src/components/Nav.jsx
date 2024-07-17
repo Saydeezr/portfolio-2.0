@@ -3,9 +3,9 @@ export default function Nav({ sections }) {
         <nav>
           <ul>
             {sections.map(section => (
-              <li key={section.id} onClick={() => section.ref.current.scrollIntoView({ behavior: 'smooth'})}>
+              <button className="nav-item" key={section.id} onClick={() => section.ref.current.scrollIntoView({ behavior: 'smooth'})}>
                 {section.title}
-              </li>
+              </button>
             ))}
           </ul>
         </nav>
