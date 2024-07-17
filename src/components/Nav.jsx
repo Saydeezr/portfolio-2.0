@@ -1,11 +1,13 @@
-export default function Nav() {
-    
+export default function Nav({ sections }) {
     return (
-        <ul className='nav nav-tabs'>
-        <li className='nav-item'>About</li>
-        <li className='nav-item'>Experience</li>
-        <li className='nav-item'>Work</li>
-        <li className='nav-item'>Contact</li>
-        </ul>
-      )
+        <nav>
+          <ul>
+            {sections.map(section => (
+              <li key={section.id} onClick={() => section.ref.current.scrollIntoView({ behavior: 'smooth'})}>
+                {section.title}
+              </li>
+            ))}
+          </ul>
+        </nav>
+      );
 }

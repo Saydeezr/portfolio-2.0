@@ -14,10 +14,9 @@
 }
 
 
-body {
-  margin: 0;
+.contentContainer {
   display: flex;
-  place-items: center;
+  align-items: center;
   min-width: 320px;
   min-height: 100vh;
 }
@@ -38,4 +37,10 @@ h1 {
 
 .nav-item {
   padding-left: 25px;
+  cursor: pointer;
+}
+
+.section {
+  height: 600px;
+  background-color: azure;
 }
