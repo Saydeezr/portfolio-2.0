@@ -5,4 +5,15 @@
   text-align: center;
 }
 
+.project-card {
+  display: inline-block;
+  padding: 0 100px;
+  align-content: space-around;
+}
 
+input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}

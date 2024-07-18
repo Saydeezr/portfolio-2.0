@@ -1,4 +1,4 @@
-export default function Content() {
+export default function Intro() {
     return (
         <div className= 'contentContainer'>
         <h1>Saydeez Reyes</h1>

@@ -1,6 +1,6 @@
 import './App.css';
 import Nav from './components/Nav';
-import Content from './components/Content';
+import Intro from './components/Intro';
 import Section from './components/Section';
 import Project from './components/Project';
 import Footer from './components/Footer';
@@ -23,12 +23,11 @@ function App() {
   return (
     <>
     <Nav sections={sections} /> 
-    <Content />
-    <Section ref={aboutRef} id='aboutSection' title='About'/>
-    <Section ref={workRef} id='workSection' title='Work'/>
-    <Section ref={resumeRef} id='resumeSection' title='Resume'/>
-    <Section ref={contactRef} id='contactSection' title='Contact'/>
-    <Project />
+    <Intro />
+    <Section ref={aboutRef} id='aboutSection' title='About' content='[about me info goes here]'/>
+    <Section ref={workRef} id='workSection' title='Work' content='[work info goes here]'/>
+    <Section ref={resumeRef} id='resumeSection' title='Resume' content='[resume info goes here]'/>
+    <Section ref={contactRef} id='contactSection' title='Contact' content='[content info goes here]'/>
     <Footer />
     </>
   )
