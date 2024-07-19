@@ -4,7 +4,7 @@ import Work from './Work';
 import Resume from './Resume';
 import Contact from './Contact';
 
-function SectionFunction({id, title, content}, ref) {
+function SectionFunction({id}, ref) {
     let Component;
 
     switch(id) {
@@ -20,6 +20,7 @@ function SectionFunction({id, title, content}, ref) {
         case 'contactSection':
             Component = Contact;
             break;
+        default: break;
     }
 
     return (

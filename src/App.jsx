@@ -8,11 +8,13 @@ import { useRef } from 'react';
 
 
 function App() {
+  //set to null
   const aboutRef = useRef(null);
   const workRef = useRef(null);
   const resumeRef = useRef(null);
   const contactRef = useRef(null);
 
+  //reference sections for Nav
   const sections = [
     {id: 'aboutSection', title:'About', ref: aboutRef},
     {id: 'workSection', title:'Work', ref: workRef},
@@ -24,10 +26,10 @@ function App() {
     <>
     <Nav sections={sections} /> 
     <Intro />
-    <Section ref={aboutRef} id='aboutSection' title='About' content='[about me info goes here]'/>
-    <Section ref={workRef} id='workSection' title='Work' content='[work info goes here]'/>
-    <Section ref={resumeRef} id='resumeSection' title='Resume' content='[resume info goes here]'/>
-    <Section ref={contactRef} id='contactSection' title='Contact' content='[content info goes here]'/>
+    <Section ref={aboutRef} id='aboutSection'/>
+    <Section ref={workRef} id='workSection'/>
+    <Section ref={resumeRef} id='resumeSection'/>
+    <Section ref={contactRef} id='contactSection'/>
     <Footer />
     </>
   )
