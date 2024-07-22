@@ -1,8 +1,7 @@
-import './App.css';
+import './index.css';
 import Nav from './components/Nav';
 import Intro from './components/Intro';
 import Section from './components/Section';
-import Project from './components/Project';
 import Footer from './components/Footer';
 import { useRef } from 'react';
 
