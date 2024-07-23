@@ -19,10 +19,10 @@ function Project() {
             description: 'This site is used to create and store blog posts by the user.'
         },
         {
-            name: 'Logo-R-Us',
-            URL: 'https://github.com/Saydeezr/logo-r-us',
-            image: '',
-            description: 'An application set to take input from a user from the command line to create a simple logo.'
+            name: 'Note Taker',
+            URL: 'https://notes-backend-3smx.onrender.com',
+            image: './src/assets/images/notes.png',
+            description: 'An efficient tool to write and save notes made by the user. Multiple notes can be submitted and saved for organization and ease.'
         },
         {
             name: 'Web-tionary',
