@@ -24,7 +24,7 @@ function SectionFunction({id}, ref) {
     }
 
     return (
-        <div ref={ref} id={id} style={{ height: '100vh', border: '1px solid black' }}>
+        <div ref={ref} id={id}>
              {Component && <Component />}
         </div>
     )
