@@ -40,13 +40,13 @@ function Project() {
     return (
      <ul className="grid grid-cols-1 md:grid-cols-3 gap-4">
       {projects.map((project) => (
-        <div className="object-contain flex flex-col justify-between max-w-md mx-auto bg-white rounded-xl shadow-md md:max-w-2xl"
+        <div className="object-contain flex flex-col justify-between max-w-md mx-auto bg-stone-200 rounded-xl shadow-md md:max-w-2xl "
         key={project.name}>
                <div class="md:flex">
                 <div class="md:shrink-0">
                 </div>
-                <div class="p-8">
-                    <div class="uppercase tracking-wide text-sm text-indigo-500 font-semibold">{project.name}</div>
+                <div class="pb-6">
+                    <div class="uppercase tracking-wide text-sm text-yellow-900 font-semibold py-6">{project.name}</div>
                     <img className='object-fit: fill' src={project.image} alt='project screenshots'/>
                     <a href="{project.URL}" class="block mt-1 text-lg leading-tight font-medium text-black hover:underline"></a>
                     <p class="mt-2 text-slate-500">{project.description}</p>
