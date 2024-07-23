@@ -10,19 +10,27 @@ function Resume() {
                         </button>
                     </a>
                 </div>
+                <div className="flex mt-4 space-x-4">
+                    <a href="https://github.com/Saydeezr/" target="_blank" rel="noopener noreferrer">
+                        <i className="fab fa-github fa-2x text-gray-800 hover:text-gray-600"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/saydeez-reyes-bb9380314/" target="_blank" rel="noopener noreferrer">
+                        <i className="fab fa-linkedin fa-2x text-blue-700 hover:text-blue-500"></i>
+                    </a>
+                </div>
             </div>
             <div className="Card bg-white p-6 rounded-lg shadow-lg ml-8 transform transition duration-500 hover:scale-105">
-                <ul className="list-disc pl-5 text-gray-700">
+                <ul className="list-none pl-5 text-gray-700">
                     <ul className="font-bold text-indigo-800">Skills:</ul>
-                    <li>JavaScript</li>
-                    <li>HTML</li>
-                    <li>CSS</li>
-                    <li>Express</li>
-                    <li>MySql</li>
-                    <li>Postgres</li>
-                    <li>Node</li>
-                    <li>MongoDB</li>
-                    <li>React</li>
+                    <li><i className="fab fa-html5 mr-2"></i>HTML</li>
+                    <li><i className="fab fa-css3-alt mr-2"></i>CSS</li>
+                    <li><i className="fab fa-js-square mr-2"></i>JavaScript</li>
+                    <li><i className="fab fa-react mr-2"></i>React</li>
+                    <li><i className="fab fa-node mr-2"></i>Node</li>
+                    <li><i className="fas fa-server mr-2"></i>Express</li>
+                    <li><i className="fas fa-database mr-2"></i>MySql</li>
+                    <li><i className="fas fa-database mr-2"></i>Postgres</li>
+                    <li><i className="fas fa-database mr-2"></i>MongoDB</li>
                 </ul>
             </div>
         </div>
