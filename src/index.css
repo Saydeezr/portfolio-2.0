@@ -33,8 +33,6 @@ body {
 }
 
 
-
-
 nav {
   margin: 20px;
   display: inline-flex;
@@ -56,4 +54,10 @@ nav {
 .nav-item:hover {
   background-color: #1e293b;
   color: #fff;
+}
+
+.resume-background {
+  background-image: url('./src/assets/images/curlyBrackets.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
