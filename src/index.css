@@ -27,22 +27,12 @@
 
 body {
   background-image: url('./src/assets/images/background.png');
-  /* background-repeat: no-repeat; */
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   background-position: center;
 }
 
 
-.contentContainer {
-  display: flex;
-  align-items: center;
-  min-width: 320px;
-  min-height: 100vh;
-}
-
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
-}
 
 
 nav {
