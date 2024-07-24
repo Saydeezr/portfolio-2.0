@@ -16,7 +16,7 @@ function Intro() {
                     </a>  
                 </div>
             </div>
-            <img className="absolute top-38 left-96 w-100 h-auto z-0" src="./src/assets/images/introBackground.png" />
+            <img className="absolute top-38 left-96 w-100 h-auto z-0" src="/images/introBackground.png" />
         </section>
     );
 }

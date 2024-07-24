@@ -3,37 +3,37 @@ function Project() {
         {
             name: 'Payroll Tracker',
             URL: 'https://saydeezr.github.io/Payroll-Tracker-JS/',
-            image: './src/assets/images/Payroll.png',
+            image: '/images/Payroll.png',
             description: 'A website to help employers keep track of their inputted employee information including first name, last name, and salary amount. A simple source with temporary storage to show the information given.'
         },
         {
             name: 'Dev-X-Connect',
             URL: 'https://dev-x-connect1.onrender.com/',
-            image: './src/assets/images/devX.png',
+            image: '/images/devX.png',
             description: 'A  collaboration to build a social platform for coders to post questions, resources, or projects, and reply to peers.'
         },
         {
             name: 'Blog Site',
             URL: 'https://saydeezr.github.io/Blog-Maker/',
-            image: './src/assets/images/blog.png',
+            image: '/images/blog.png',
             description: 'This site is used to create and store blog posts by the user.'
         },
         {
             name: 'Note Taker',
             URL: 'https://notes-backend-3smx.onrender.com',
-            image: './src/assets/images/notes.png',
+            image: '/images/notes.png',
             description: 'An efficient tool to write and save notes made by the user. Multiple notes can be submitted and saved for organization and ease.'
         },
         {
             name: 'Web-tionary',
             URL: 'https://github.com/Saydeezr/web-tionary',
-            image: './src/assets/images/web-tionary.png',
+            image: '/images/web-tionary.png',
             description: 'A CMS-style blog site where developers can publish their blog posts and comment on other developers’ posts as well.'
         },
         {
             name: 'Under the Weather',
             URL: 'https://saydeezr.github.io/under-the-weather/',
-            image: './src/assets/images/weather.png',
+            image: '/images/weather.png',
             description: 'A website designed to give users the current weather and a 5-day forecast of any city they search for. Their most recent searches will be displayed on page as a link to go to the weather forecast of that city.'
         }
     ]

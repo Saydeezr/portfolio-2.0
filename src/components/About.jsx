@@ -11,7 +11,7 @@ function About() {
                 </p>
             </div>
             <div className="Card bg-white-300 w-48h-24 flex-shrink-0 ml-4">
-                <img className="w-full h-full object-cover rounded-lg" src='./src/assets/images/code-Me.png' alt='code snippet'/>
+                <img className="w-full h-full object-cover rounded-lg" src='/public/images/code-Me.png' alt='code snippet'/>
             </div>
         </div>
     );
