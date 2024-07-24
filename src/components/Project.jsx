@@ -49,7 +49,7 @@ function Project() {
                     <div class="uppercase tracking-wide text-sm text-yellow-900 font-semibold py-6">{project.name}</div>
                     <img className='object-fit: fill' src={project.image} alt='project screenshots'/>
                     <a href="{project.URL}" class="block mt-1 text-lg leading-tight font-medium text-black hover:underline"></a>
-                    <p class="mt-2 text-slate-500">{project.description}</p>
+                    <p class="mt-2 text-stone-500">{project.description}</p>
                 </div>
             </div>
         </div>
