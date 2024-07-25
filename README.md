@@ -2,7 +2,6 @@
 
 Welcome to my portfolio! This project showcases a collection of my work as a web developer. It includes projects I've worked on, my skills, and my experience in the field. The goal is to provide a comprehensive overview of my capabilities and achievements.
 
-
 ## Installation
 To run this project locally, follow these steps:
 
@@ -21,4 +20,6 @@ CSS/SCSS
 JavaScript
 HTML
 
+## Link
+https://bejewelled-lolly-e87be9.netlify.app/
 
