@@ -1,21 +1,24 @@
 function Intro() {
     return (
-        <section className="contentContainer flex justify-between items-center h-screen relative">
-            <div className="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 relative z-10">
-                <h1 className="mb-4 text-4xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl dark:text-black">Saydeez Reyes</h1>
-                <p className="mb-8 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 lg:px-48 dark:text-gray-400">| Full-Stack Web Developer</p>
-                <div className="flex flex-col space-y-4 sm:flex-row sm:justify-center sm:space-y-0">
-                    <a href="#" className="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-gray-900 hover:bg-gray-700 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900">
-                        Get started
-                        <svg className="w-3.5 h-3.5 ms-2 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
-                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
-                        </svg>
-                    </a> 
-                </div>
+      <section className="contentContainer flex justify-between items-center h-screen relative ">
+        <div className="flex items-center mx-auto max-w-screen-xl lg:py-16 ">
+          <div className="text-left z-30">
+            <h1 className="mb-2 font-bold text-gray-900 text-6xl md:text-7xl lg:text-8xl relative z-20">
+              Saydeez Reyes
+            </h1>
+            <p className="mb-8 pt-6 text-lg font-normal text-gray-500 lg:text-xl">
+              | Full-Stack Web Developer
+            </p>
+            <div className="flex-initial space-y-4 sm:flex-row sm:justify-center sm:space-y-0">
+              <a href="#" className="inline-flex items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-gray-900 hover:bg-gray-700">
+                Get started
+              </a>
             </div>
-            <img className="absolute top-38 left-96 w-100 h-auto z-0" src="/images/introBackground.png" />
-        </section>
+          </div>
+          <img className="absolute inset-y-15 right-2 w-[650px] h-auto z-10" src="/images/introBackground.png" alt="Intro Background"/>
+        </div>
+      </section>
     );
-}
-
-export default Intro;
+  }
+  
+  export default Intro;
