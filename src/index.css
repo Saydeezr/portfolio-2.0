@@ -33,25 +33,6 @@ body {
   background-position: center;
 }
 
-
-nav {
-  margin: 20px;
-  display: inline-flex;
-  flex-direction: row;
-  float: right;
-}
-
-.nav-item {
-  background:none;
-  border:none;
-  cursor: pointer;
-  display: inline-block;
-  font-family: "Basier circle",-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
-  font-size: 1.125rem;
-  font-weight: 600;
-  padding: 1rem 2rem;
-}
-
 .nav-item:hover {
   background-color: #1e293b;
   color: #fff;
