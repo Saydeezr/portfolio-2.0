@@ -40,12 +40,9 @@ function Project() {
     return (
         <ul className="grid grid-cols-1 md:grid-cols-3 gap-4">
           {projects.map((project) => (
-            <div
-              className="flex flex-col justify-between max-w-md mx-auto bg-stone-200 rounded-xl shadow-md md:max-w-2xl"
-              key={project.name}
-            >
+            <div className="flex flex-col justify-between max-w-md mx-auto bg-stone-200 rounded-xl shadow-md md:max-w-2xl"
+              key={project.name}>
               <div className="md:flex">
-                <div className="md:shrink-0"></div>
                 <div className="pb-6 flex-grow">
                   <div className="uppercase mb-2 text-2xl font-bold tracking-tight text-yellow-900 text-center font-semibold py-4">
                     {project.name}

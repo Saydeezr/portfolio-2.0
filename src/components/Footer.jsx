@@ -1,9 +1,9 @@
 function Footer() {
     return(
-        <div className=" rounded-lg shadow m-4 py-8">
+        <div className=" rounded-lg m-4 pt-36 pb-8">
             <div className="w-full max-w-screen-xl mx-auto p-4">
                 <div className="sm:flex sm:items-center sm:justify-between">
-                    <div className="shadow m-4 py-4">
+                    <div className="">
                         <a href="https://github.com/Saydeezr/" target="_blank" rel="noopener noreferrer">
                             <i className="fab fa-github fa-2x text-white-800 hover:text-gray-600 px-2.5"></i>
                         </a> 
