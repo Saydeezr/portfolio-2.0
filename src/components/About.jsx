@@ -1,6 +1,6 @@
 function About() {
     return (
-        <div className="flex flex-row justify-between items-start py-32">
+        <div className="flex flex-row justify-between items-start pt-12 pb-32">
             <div className="aboutInfo max-w-md">
                 <h2 className="text-2xl font-bold mb-4">A Deeper Look</h2>
                 <p className="text-base leading-relaxed">
@@ -10,7 +10,8 @@ function About() {
                     Now, I approach the intricacies of the tech world with a problem-solving mindset. This journey has been fulfilling and exciting, and I look forward to what lies ahead.
                 </p>
             </div>
-            <div className="Card bg-white-300 w-48h-24 flex-shrink-0 ml-4">
+            <p className="text-9xl mt-24">:</p>
+            <div className="Card bg-white-300 w-48h-24 flex-shrink-0">
                 <img className="w-full h-full object-cover rounded-lg" src='/images/code-Me.png' alt='code snippet'/>
             </div>
         </div>

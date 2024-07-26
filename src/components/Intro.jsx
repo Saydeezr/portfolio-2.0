@@ -1,3 +1,4 @@
+
 function Intro() {
     return (
       <section className="contentContainer flex justify-between items-center h-screen relative ">
@@ -11,7 +12,7 @@ function Intro() {
               | Full-Stack Web Developer
               </p>
               <div className="flex-initial space-y-4 sm:flex-row sm:justify-center sm:space-y-0">
-                <a href="#" className="inline-flex items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-gray-900 hover:bg-gray-700">
+                <a href="/About" className="inline-flex items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-gray-900 hover:bg-gray-700">
                 Get started
                 </a>
               </div>

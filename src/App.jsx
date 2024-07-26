@@ -4,7 +4,7 @@ import Intro from './components/Intro';
 import Section from './components/Section';
 import Footer from './components/Footer';
 import { useRef } from 'react';
-
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {
   //set to null

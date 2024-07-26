@@ -42,14 +42,14 @@ function Project() {
       {projects.map((project) => (
         <div className="object-contain flex flex-col justify-between max-w-md mx-auto bg-stone-200 rounded-xl shadow-md md:max-w-2xl "
         key={project.name}>
-               <div class="md:flex">
-                <div class="md:shrink-0">
+               <div className="md:flex">
+                <div className="md:shrink-0">
                 </div>
-                <div class="pb-6">
-                    <div class="uppercase tracking-wide text-sm text-yellow-900 font-semibold py-6">{project.name}</div>
+                <div className="pb-6">
+                    <div className="uppercase tracking-wide text-sm text-yellow-900 font-semibold py-6">{project.name}</div>
                     <img className='object-fit: fill' src={project.image} alt='project screenshots'/>
-                    <a href="{project.URL}" class="block mt-1 text-lg leading-tight font-medium text-black hover:underline"></a>
-                    <p class="mt-2 text-stone-500">{project.description}</p>
+                    <a href="{project.URL}" className="block mt-1 text-lg leading-tight font-medium text-black hover:underline"></a>
+                    <p className="mt-2 text-stone-500">{project.description}</p>
                 </div>
             </div>
         </div>
