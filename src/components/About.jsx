@@ -11,8 +11,12 @@ function About() {
                 </p>
             </div>
             <p className="text-9xl mt-24">:</p>
-            <div className="Card bg-white-300 w-48h-24 flex-shrink-0">
-                <img className="w-full h-full object-cover rounded-lg" src='/images/code-Me.png' alt='code snippet'/>
+            <div className="image-container">
+                <div className="image-flip"></div>
+            </div>
+            <div className="relative bg-white-300 w-48h-24 flex-shrink-0">
+                <img className="image-flip w-full h-full object-cover rounded-lg" src='/images/code-Me.png' alt='code snippet'/>
+                <img className="image-flip-hover w-full h-full object-cover rounded-lg absolute inset-0 opacity-0 transition-opacity duration-500 ease-in-out" src="/images/profile.jpg" alt="Second Image" />
             </div>
         </div>
     );
