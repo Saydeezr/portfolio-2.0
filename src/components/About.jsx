@@ -2,7 +2,7 @@ function About() {
     return (
         <div className="flex flex-row justify-between items-start pt-12 pb-32">
             <div className="aboutInfo max-w-md">
-                <h2 className="text-2xl font-bold mb-4">A Deeper Look</h2>
+                <h2 className="text-4xl font-bold mb-4">A Deeper Look</h2>
                 <p className="text-base leading-relaxed">
                     From the start, I've always been driven by a desire to make a difference. I excelled in school and had a knack for grasping concepts pretty early on.
                     Then it got boring and life hit a plateau. My mind yearned for challenges, for problems to solve, for something more than the mundane. After much introspection, 

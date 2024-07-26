@@ -38,23 +38,29 @@ function Project() {
         }
     ]
     return (
-     <ul className="grid grid-cols-1 md:grid-cols-3 gap-4">
-      {projects.map((project) => (
-        <div className="object-contain flex flex-col justify-between max-w-md mx-auto bg-stone-200 rounded-xl shadow-md md:max-w-2xl "
-        key={project.name}>
-               <div className="md:flex">
-                <div className="md:shrink-0">
+        <ul className="grid grid-cols-1 md:grid-cols-3 gap-4">
+          {projects.map((project) => (
+            <div
+              className="flex flex-col justify-between max-w-md mx-auto bg-stone-200 rounded-xl shadow-md md:max-w-2xl"
+              key={project.name}
+            >
+              <div className="md:flex">
+                <div className="md:shrink-0"></div>
+                <div className="pb-6 flex-grow">
+                  <div className="uppercase mb-2 text-2xl font-bold tracking-tight text-yellow-900 text-center font-semibold py-4">
+                    {project.name}
+                  </div>
+                  <img className="w-full h-64 object-cover" src={project.image} alt="project screenshots"/>
+                  <p className="mt-2 text-stone-500">{project.description}</p>
                 </div>
-                <div className="pb-6">
-                    <div className="uppercase tracking-wide text-sm text-yellow-900 font-semibold py-6">{project.name}</div>
-                    <img className='object-fit: fill' src={project.image} alt='project screenshots'/>
-                    <a href="{project.URL}" className="block mt-1 text-lg leading-tight font-medium text-black hover:underline"></a>
-                    <p className="mt-2 text-stone-500">{project.description}</p>
-                </div>
+              </div>
+              <a href={project.URL} className="mt-4 text-lg leading-tight font-medium text-yellow-800 hover:underline text-center mb-4">
+                Visit Site
+              </a>
             </div>
-        </div>
-      ))}
-     </ul>
-    )     
-}
+          ))}
+        </ul>
+      )
+    };
+
 export default Project;
