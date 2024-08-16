@@ -1,18 +1,22 @@
 export default function Nav({ sections }) {
   return (
-    <nav className="grid grid-cols-[auto_1fr] items-start p-2.5">
-      <img className="w-[200px] h-auto mt-6" src="/images/signature.png" alt="Signature" />
-      <ul className="flex pt-6 justify-end list-none items-center">
-        {sections.map(section => (
-          <button
-            className="border-none cursor-pointer font-sans font-semibold text-[1.125rem] p-4 mr-2.5 hover:bg-[#1e293b] hover:text-white"
-            key={section.id}
-            onClick={() => section.ref.current.scrollIntoView({ behavior: 'smooth' })}
-          >
-            {section.title}
-          </button>
-        ))}
-      </ul>
-    </nav>
+    <nav className="container-fluid navContainer">
+      <div className="row align-items-center">
+        <div className="col">
+          <h1>[Icon]</h1>
+        </div>
+        <div className="col text-end">
+          <ul className="list-inline mb-0">
+            {sections.map(section => (
+              <li className="list-inline-item" key={section.id}>
+                <button className="btn btn-link" onClick={() => section.ref.current.scrollIntoView({ behavior: 'smooth' })}>
+                  {section.title}
+                </button>
+              </li>
+            ))}
+          </ul>
+        </div>
+      </div>
+  </nav>
   );
 }

@@ -1,10 +1,13 @@
-import './index.css';
 import Nav from './components/Nav';
 import Intro from './components/Intro';
 import Section from './components/Section';
 import Footer from './components/Footer';
 import { useRef } from 'react';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import 'bootstrap/dist/css/bootstrap.min.css';
+import './index.css';
+
+
 
 function App() {
   //set to null

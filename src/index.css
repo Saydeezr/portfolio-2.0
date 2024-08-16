@@ -1,16 +1,13 @@
 @import '@fortawesome/fontawesome-free/css/all.min.css';
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
 
-:root {
+body {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
 
   color-scheme: light dark;
   color: rgba(0, 0, 0, 0.87);
-  background-color: #f1f1f1;
+  background-color: #eeeeee !important;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -18,26 +15,72 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-#root {
+/* #root {
   max-width: 1280px;
   margin: 0 auto;
+} */
+
+.navContainer{
+  padding: 15px;
+  box-shadow: 0px 15px 10px -15px #6e6e6e; 
 }
 
-body {
-  background-image: url('/images/background.png');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-  background-position: center;
+.introButton{
+  position: absolute;
+  top: 75%;
+  left: 60%;
+  transform: translate(-50%, -50%);
+  background-color: #585853;
+  border: #585853;
+  padding: 12px;
+}
+
+.introButton:hover {
+  background-color: #f8f8f8;
+  border-color: #cccccc;
+  color: black; 
+}
+
+.btn-link{
+  text-decoration: none;
+  color: black;
+  padding-right: 35px;
+}
+.btn-link:hover {
+  color: #a0a0a0;
+}
+
+.about-container{
+  margin: 10px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.aboutMePic{
+  width: 70%;
+  height: auto;
+  box-shadow: 0px 15px 10px -15px #6e6e6e; 
+}
+.about-row {
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}
+
+.about-col {
+  text-align: center; 
+}
+
+.about-title{
+  font-size: 5rem;
+  padding-bottom: 20px;
+}
+.about-text{
+  font-size: 1.2rem;
 }
 
 .image-flip-hover:hover {
   opacity: 1;
 }
 
-.resume-background {
-  background-image: url('/images/curlyBrackets.png');
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-}
 
