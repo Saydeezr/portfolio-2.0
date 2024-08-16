@@ -1,8 +1,8 @@
 import Project from './Project'
 function Work() {
     return (
-        <div className='py-32'>
-        <h2 className='text-4xl font-bold mb-4 '>Projects</h2>
+        <div className='project-container'>
+        <h2 className='project-title'>Work in <span className='span'>Action</span></h2>
         <Project/>
         </div>
         

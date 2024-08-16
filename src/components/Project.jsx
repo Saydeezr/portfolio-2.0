@@ -1,3 +1,5 @@
+import { Container, Row, Col, Card, Button } from 'react-bootstrap'
+
 function Project() {
     const projects = [
         {
@@ -38,25 +40,31 @@ function Project() {
         }
     ]
     return (
-        <ul className="grid grid-cols-1 md:grid-cols-3 gap-4">
-          {projects.map((project) => (
-            <div className="flex flex-col justify-between max-w-md mx-auto bg-stone-200 rounded-xl shadow-md md:max-w-2xl"
-              key={project.name}>
-              <div className="md:flex">
-                <div className="pb-6 flex-grow">
-                  <div className="uppercase mb-2 text-2xl font-bold tracking-tight text-yellow-900 text-center font-semibold py-4">
-                    {project.name}
-                  </div>
-                  <img className="w-full h-64 object-cover" src={project.image} alt="project screenshots"/>
-                  <p className="mt-2 text-stone-500">{project.description}</p>
+      <Container>
+      <Row className="g-4">
+        {projects.map((project) => (
+          <Col xs={12} md={4} key={project.name}>
+            <Card className="h-100 ">
+              <Card.Body className="d-flex flex-column">
+                <Card.Title className="text-center text-uppercase mb-2">
+                  {project.name}
+                </Card.Title>
+                <Card.Img variant="top" src={project.image} alt="project screenshots" className="mb-3" />
+                <Card.Text className="text-muted">
+                  {project.description}
+                </Card.Text>
+                <div className="mt-auto text-center">
+                  <Button variant="link" href={project.URL}>
+                    Visit Site
+                  </Button>
+                  <hr></hr>
                 </div>
-              </div>
-              <a href={project.URL} className="mt-4 text-lg leading-tight font-medium text-yellow-800 hover:underline text-center mb-4">
-                Visit Site
-              </a>
-            </div>
-          ))}
-        </ul>
+              </Card.Body>
+            </Card>
+          </Col>
+        ))}
+      </Row>
+    </Container>
       )
     };
 
