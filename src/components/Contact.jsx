@@ -1,6 +1,27 @@
+import { Form, Row, Col, Container } from 'react-bootstrap'
+
 function Contact() {
     return (
-        <div className=" pb-12 rounded-xl shadow-md">
+        <Container className=" form-container">
+            <Form>
+                <h2>CONTACT ME </h2>
+                <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
+                    <Form.Label>Email address</Form.Label>
+                    <Form.Control type="email" placeholder="name@example.com" />
+                </Form.Group>
+
+                <Form.Group className="mb-3" controlId="formPlaintextPassword">
+                    <Form.Label column sm="2">
+                    Password
+                    </Form.Label>
+                    <Form.Control type="password" placeholder="Password" />
+                </Form.Group>
+                <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
+                    <Form.Label>Example textarea</Form.Label>
+                    <Form.Control as="textarea" rows={3} />
+                </Form.Group>
+
+            </Form>
             {/* <section class="">
             <div class="py-8 lg:py-16 px-4 mx-auto max-w-screen-md">
             <h2 className='mb-4 text-4xl tracking-tight font-bold text-center'>Contact Me</h2>
@@ -22,7 +43,7 @@ function Contact() {
                 </form>
             </div>
             </section> */}
-        </div>
+        </Container>
     );
 }
 
