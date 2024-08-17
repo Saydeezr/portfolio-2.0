@@ -1,27 +1,47 @@
-import { Form, Row, Col, Container } from 'react-bootstrap'
+import { Form, Row, Col, Container, Image, Button } from 'react-bootstrap'
 
 function Contact() {
     return (
         <Container className=" form-container">
-            <Form>
-                <h2>CONTACT ME </h2>
-                <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
-                    <Form.Label>Email address</Form.Label>
-                    <Form.Control type="email" placeholder="name@example.com" />
-                </Form.Group>
+            <Row>
+                {/* <Col>
+                </Col> */}
+                <Col >
+                    <Form>
+                        <h2>CONTACT ME </h2>
+                        <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
+                            <Form.Label>Email address</Form.Label>
+                            <Form.Control type="email" placeholder="name@example.com" />
+                        </Form.Group>
 
-                <Form.Group className="mb-3" controlId="formPlaintextPassword">
-                    <Form.Label column sm="2">
-                    Password
-                    </Form.Label>
-                    <Form.Control type="password" placeholder="Password" />
-                </Form.Group>
-                <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
-                    <Form.Label>Example textarea</Form.Label>
-                    <Form.Control as="textarea" rows={3} />
-                </Form.Group>
+                        <Form.Group className="mb-3" controlId="formPlaintextPassword">
+                            <Form.Label column sm="2">
+                            Password
+                            </Form.Label>
+                            <Form.Control type="password" placeholder="Password" />
+                        </Form.Group>
 
-            </Form>
+                        <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
+                            <Form.Label>Message</Form.Label>
+                            <Form.Control as="textarea" rows={3} placeholder='"This is such a great profile!"'/>
+                        </Form.Group>
+
+                        <Button className="form-btn" type="submit">
+                            Submit
+                        </Button>
+                    </Form>
+                    <div className="icon-container">
+                        <a href="https://github.com/Saydeezr/" target="_blank" rel="noopener noreferrer">
+                            <i className="fab fa-github fa-3x icon"></i>
+                        </a> 
+                        <a href="https://www.linkedin.com/in/saydeez-reyes-bb9380314/" target="_blank" rel="noopener noreferrer">
+                            <i className="fab fa-linkedin fa-3x icon"></i>
+                        </a>
+                    </div>
+                </Col>
+                <Image className='contact-pic' src="images/developer.png" fluid />
+            </Row>
+            
             {/* <section class="">
             <div class="py-8 lg:py-16 px-4 mx-auto max-w-screen-md">
             <h2 className='mb-4 text-4xl tracking-tight font-bold text-center'>Contact Me</h2>

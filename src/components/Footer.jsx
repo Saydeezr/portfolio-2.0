@@ -1,27 +1,27 @@
 function Footer() {
     return(
-        <div className=" rounded-lg m-4 pt-36 pb-8">
-            <div className="w-full max-w-screen-xl mx-auto p-4">
-                <div className="sm:flex sm:items-center sm:justify-between">
-                    <div className="">
+        <div className="rounded-lg footer-container">
+            <div className="container pb-4">
+                <div className="d-flex justify-content-between align-items-center">
+                    <div>
                         <a href="https://github.com/Saydeezr/" target="_blank" rel="noopener noreferrer">
-                            <i className="fab fa-github fa-2x text-white-800 hover:text-gray-600 px-2.5"></i>
+                            <i className="fab fa-github fa-2x icon-footer"></i>
                         </a> 
                         <a href="https://www.linkedin.com/in/saydeez-reyes-bb9380314/" target="_blank" rel="noopener noreferrer">
-                            <i className="fab fa-linkedin fa-2x text-white-700 hover:text-blue-500 px-2.5"></i>
+                            <i className="fab fa-linkedin fa-2x icon-footer"></i>
                         </a>
                     </div>
-                    <ul className="flex flex-wrap items-center mb-6 text-sm font-medium text-gray-500 sm:mb-0 dark:text-gray-400">
-                        <li>
-                            <a href="#" className="hover:underline me-4 md:me-6">Home</a>
+                    <ul className="list-inline mb-0 pt-4">
+                        <li className="list-inline-item ">
+                            <a href="#" className="btn-link">Home</a>
                         </li>
-                        <li>
-                            <a href="#" className="hover:underline me-4 md:me-6">Top</a>
+                        <li className="list-inline-item me-4">
+                            <a href="#" className="btn-link">Top</a>
                         </li>
                     </ul>
                 </div>
-                <hr className="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
-                <span className="block text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2024 Portfolio Rights to Author</span>
+                <hr className="my-4" />
+                <span className="d-block text-center text-muted">© 2024 Portfolio Rights to Author</span>
             </div>
         </div>
     )
