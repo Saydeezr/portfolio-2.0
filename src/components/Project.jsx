@@ -44,23 +44,24 @@ function Project() {
       <Row className="g-4">
         {projects.map((project) => (
           <Col xs={12} md={4} key={project.name}>
-            <Card className="h-100 ">
-              <Card.Body className="d-flex flex-column">
-                <Card.Title className="text-center text-uppercase mb-2">
-                  {project.name}
-                </Card.Title>
-                <Card.Img variant="top" src={project.image} alt="project screenshots" className="mb-3" />
-                <Card.Text className="text-muted">
-                  {project.description}
-                </Card.Text>
-                <div className="mt-auto text-center">
-                  <Button variant="link" href={project.URL}>
-                    Visit Site
-                  </Button>
-                  <hr></hr>
-                </div>
-              </Card.Body>
-            </Card>
+            <a href={project.URL} target="_blank" rel="noopener noreferrer" className="card-link h-100">
+              <Card className="h-100 project-card">
+                <Card.Body className="d-flex flex-column card-body">
+                  <Card.Header className=" w-100">
+                      <Card.Title className="text-center text-uppercase mb-2">
+                        {project.name}
+                      </Card.Title>
+                  </Card.Header>
+                  <Card.Img variant="top" src={project.image} alt="project screenshots" className="project-image" />
+                  <Card.Text>
+                    {project.description}
+                  </Card.Text>
+                  <div className="mt-auto text-center">
+                    <div class="hr"></div>
+                  </div>
+                </Card.Body>
+              </Card>
+            </a>
           </Col>
         ))}
       </Row>
