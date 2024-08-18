@@ -30,14 +30,14 @@ function Contact() {
                             Submit
                         </Button>
                     </Form>
-                    <div className="icon-container">
+                    {/* <div className="icon-container">
                         <a href="https://github.com/Saydeezr/" target="_blank" rel="noopener noreferrer">
                             <i className="fab fa-github fa-3x icon"></i>
                         </a> 
                         <a href="https://www.linkedin.com/in/saydeez-reyes-bb9380314/" target="_blank" rel="noopener noreferrer">
                             <i className="fab fa-linkedin fa-3x icon"></i>
                         </a>
-                    </div>
+                    </div> */}
                 </Col>
                 <Image className='contact-pic' src="images/developer.png" fluid />
             </Row>

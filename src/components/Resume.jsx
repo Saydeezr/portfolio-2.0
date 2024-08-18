@@ -24,10 +24,11 @@ function Resume() {
                             <Col xs lg="1">
                                 <div class="vertical-hr"></div>
                             </Col>
-                            <Col className="center-col" >
-                                <p className="temp"><i class="fa-solid fa-check"></i> MERN STACK</p>
+                            <Col className="center-col temp" >
+                                <p><i class="fa-solid fa-check"></i> MERN STACK</p>
                                 <p><i class="fa-solid fa-check"></i> FULLSTACK DEVELOPMENT</p>
                                 <p><i class="fa-solid fa-check"></i> UCF CERTIFIED</p>
+                                <br></br>
                                 <hr></hr>
                                 <Image className="skill-pic" src='images/S.png'></Image>
                             </Col>
@@ -36,14 +37,11 @@ function Resume() {
                 </Col>
                 <Col>
                 <Image className="temp-res" src='images/temp-resume.png'></Image>
-                {/* <div className="icon-container">
-                     <a href="https://github.com/Saydeezr/" target="_blank">
-                         <i className="fab fa-github fa-2x"></i>
-                     </a>
-                     <a href="https://www.linkedin.com/in/saydeez-reyes-bb9380314/" target="_blank">
-                         <i className="fab fa-linkedin fa-2x"></i>
-                     </a>
-                 </div> */}
+                </Col>
+                <Col xs lg="1">
+                    <div class="vertical-text">
+                        Resume
+                    </div>
                 </Col>
             </Row>
         </Container>
