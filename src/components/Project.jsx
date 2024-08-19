@@ -57,7 +57,7 @@ function Project() {
                     {project.description}
                   </Card.Text>
                   <div className="mt-auto text-center">
-                    <div class="hr"></div>
+                    <div className="hr"></div>
                   </div>
                 </Card.Body>
               </Card>
