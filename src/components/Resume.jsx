@@ -31,12 +31,16 @@ function Resume() {
                                 <br></br>
                                 <hr></hr>
                                 <Image className="skill-pic" src='images/S.png'></Image>
+                                <a href='download/Resume 2024.pdf' download="Resume 2024.pdf" className="res-btn">
+                                    <button>Download Resume</button>
+                                </a>
                             </Col>
                         </Row>
                     </Container>
                 </Col>
                 <Col>
-                <Image className="temp-res" src='images/temp-resume.png'></Image>
+                <Image className="res" src='images/resume.png'></Image>
+                
                 </Col>
                 <Col xs lg="1">
                     <div class="vertical-text">

@@ -31,6 +31,21 @@ body {
   z-index: 1;
 }
 
+.logo{
+  width: 12%;
+  height: auto;
+}
+
+.btn-link{
+  text-decoration: none;
+  color: black;
+  padding-right: 35px;
+}
+.btn-link:hover {
+  color: #a0a0a0;
+}
+
+
 /* INTRO */
 .introButton{
   position: absolute;
@@ -48,14 +63,7 @@ body {
   color: black; 
 }
 
-.btn-link{
-  text-decoration: none;
-  color: black;
-  padding-right: 35px;
-}
-.btn-link:hover {
-  color: #a0a0a0;
-}
+
 
 
 /* ABOUT */
@@ -91,8 +99,8 @@ body {
 
 /* PROJECTS */
 .project-container{
-  padding: 50px 0px;
-  margin: 15px 0px;
+  padding: 75px 0px;
+  margin: 25px 0px;
 }
 
 .project-title{
@@ -159,7 +167,7 @@ body {
   padding: 70px 0px;
 }
 
-.temp-res{
+.res{
   width: 90%;
   height: auto;
   padding-left: 10px;
@@ -188,6 +196,10 @@ body {
   width: 100%;
   height: auto;
   padding-top: 25px;
+ }
+
+ .res-btn{
+  margin: 0px 55px;
  }
 
  .vertical-text {
