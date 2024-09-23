@@ -22,12 +22,12 @@ function Resume() {
                                 <ul><i className="fas fa-database mr-2"></i>MongoDB</ul>
                             </Col>
                             <Col xs lg="1">
-                                <div class="vertical-hr"></div>
+                                <div className="vertical-hr"></div>
                             </Col>
                             <Col className="center-col temp" >
-                                <p><i class="fa-solid fa-check"></i> MERN STACK</p>
-                                <p><i class="fa-solid fa-check"></i> FULLSTACK DEVELOPMENT</p>
-                                <p><i class="fa-solid fa-check"></i> UCF CERTIFIED</p>
+                                <p><i className="fa-solid fa-check"></i> MERN STACK</p>
+                                <p><i className="fa-solid fa-check"></i> FULLSTACK DEVELOPMENT</p>
+                                <p><i className="fa-solid fa-check"></i> UCF CERTIFIED</p>
                                 <br></br>
                                 <hr></hr>
                                 <Image className="skill-pic" src='images/S.png'></Image>
@@ -43,7 +43,7 @@ function Resume() {
                 
                 </Col>
                 <Col xs lg="1">
-                    <div class="vertical-text">
+                    <div className="vertical-text">
                         Resume
                     </div>
                 </Col>

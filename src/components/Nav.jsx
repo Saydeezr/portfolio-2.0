@@ -6,6 +6,7 @@ export default function Nav({ sections }) {
       <div className="row align-items-center">
         <div className="col-3">
         <Image className="logo" src='images/S.png'></Image>
+        {/* <p className='myName'>Saydeez Reyes</p> */}
         </div>
         <div className="col text-end">
           <ul className="list-inline mb-0">
