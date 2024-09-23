@@ -4,7 +4,7 @@ export default function Nav({ sections }) {
   return (
     <nav className="container-fluid navContainer">
       <div className="row align-items-center">
-        <div className="col">
+        <div className="col-3">
         <Image className="logo" src='images/S.png'></Image>
         </div>
         <div className="col text-end">
