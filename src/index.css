@@ -37,6 +37,7 @@ body {
   font-size: 1.5rem;
   font-weight: 500;
   padding: 10px 0;
+ 
 }
 
 .btn-link{
@@ -75,13 +76,13 @@ body {
 
 .intro{
   text-align: center;
-  margin: 20px;
+  margin: 7rem 1rem;
 }
 
 .intro-header{
   font-weight: 200;
   font-size: 1.5rem;
-  padding-top: 10px;
+  padding-top: 2rem;
 }
 
 .intro-text{
@@ -89,7 +90,7 @@ body {
   font-weight: 500;
   font-style: normal;
   font-size: 2.0rem;
-  padding-bottom: 6rem;
+  padding-bottom: 7rem;
   /* border-bottom: rgb(163, 162, 162) dotted; */
 }
 
@@ -110,9 +111,10 @@ body {
   display: flex;
   justify-content: center;
   align-items: center; 
-  margin: 10px;
+  margin: 3rem 0;
   padding-top: 50px;
   padding-bottom: 50px;
+  background-color: white;
 }
 
 .about-col {
@@ -143,17 +145,40 @@ body {
   background-color: white;
 }
 
+.project-header{
+  display: flex;
+  align-items: center;
+}
+
 .project-title{
+  display: flex;
   padding-left: 50px;
   padding-bottom: 15px;
   font-family: "Fira Sans Extra Condensed", sans-serif;
   font-weight: 300;
-  font-size: 60px;
+  font-size: 80px;
+  /* color: #a0a0a057; */
 }
 
 .span{
+  /* color: #a0a0a057; */
   font-style: italic;
   font-weight: 700;
+}
+
+@media (max-width: 768px) {
+  .project-title {
+    font-size: 30px;
+    padding-left: 20px; 
+    padding-bottom: 10px; 
+  }
+}
+
+.subtitle{
+  font-family: "Fira Sans Extra Condensed", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+  padding-bottom: 15px;
 }
 
 .card-link {
@@ -163,11 +188,12 @@ body {
 .site-title{
   font-family: "Bodoni Moda SC", serif;
   padding-top: 1rem;
+  border: none;
 }
 
 .description{
   font-family: "Fira Sans Extra Condensed", sans-serif;
-  padding-top: 1.5rem;
+  padding: 1.5rem;
 }
 
 .project-card {
