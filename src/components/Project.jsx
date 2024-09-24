@@ -21,10 +21,10 @@ function Project() {
             description: 'This site is used to create and store blog posts by the user.'
         },
         {
-            name: 'Note Taker',
-            URL: 'https://notes-backend-3smx.onrender.com',
-            image: '/images/notes.png',
-            description: 'An efficient tool to write and save notes made by the user. Multiple notes can be submitted and saved for organization and ease.'
+            name: 'M.A.S.H',
+            URL: 'https://saydeezr.github.io/M.A.S.H',
+            image: '/images/MASH.png',
+            description: 'A fun game that takes user input and randomizes a glimpse into the future.'
         },
         {
             name: 'Web-tionary',
@@ -40,23 +40,23 @@ function Project() {
         }
     ]
     return (
-      <Container>
-      <Row className="g-4">
+      <Row className="g-3">
         {projects.map((project) => (
           <Col xs={12} md={4} key={project.name}>
             <a href={project.URL} target="_blank" rel="noopener noreferrer" className="card-link h-100">
               <Card className="h-100 project-card">
                 <Card.Body className="d-flex flex-column card-body">
                   <Card.Header className=" w-100">
-                      <Card.Title className="text-center text-uppercase mb-2">
+                      <Card.Title className="text-center text-uppercase mb-2 site-title">
                         {project.name}
                       </Card.Title>
                   </Card.Header>
                   <Card.Img variant="top" src={project.image} alt="project screenshots" className="project-image" />
-                  <Card.Text>
+                  <Card.Text className='description text-center'>
                     {project.description}
                   </Card.Text>
                   <div className="mt-auto text-center">
+                    <p>Click To Visit Site</p>
                     <div className="hr"></div>
                   </div>
                 </Card.Body>
@@ -65,7 +65,6 @@ function Project() {
           </Col>
         ))}
       </Row>
-    </Container>
       )
     };
 

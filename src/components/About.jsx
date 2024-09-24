@@ -2,14 +2,13 @@ import { Container, Row, Col, Image } from 'react-bootstrap';
 
 function About() {
     return (
-        <Container className='about-container'>
          <Row className="about-row">
-            <Col xs={12}  md={5}className="about-col">
+            <Col xs={12} sm={12} lg={4}className="about-col">
               <Image className='aboutMePic' src="/images/Journey.png" rounded />
             </Col>
-            <Col xs={12}  md={7}>
-              <h1 className='about-title'>A Deeper Look</h1>
-                <p className='about-text'>I am a dedicated web developer who has recently transitioned into this exciting field 
+            <Col xs={12} sm={12} lg={8}>
+              <h1 className='about-title py-3'>A Deeper Look</h1>
+                <p className='about-text'>I am a dedicated web developer who has recently transitioned into this exciting field of tech
                   after years of excelling in various other careers, including a detail-oriented, data-based logistics field. 
                   My journey has been diverse, but one thing has remained constant: my commitment to progression and my drive to excel in everything I do. </p>
                  <p className='about-text'>I’m thrilled to dive deeper into the tech industry and bring my unique perspective and skills to the table. 
@@ -21,7 +20,7 @@ function About() {
                   </p> 
             </Col>
          </Row> 
-      </Container>
+     
     );
 }
 

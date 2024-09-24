@@ -19,7 +19,7 @@ function Contact() {
             <Row>
                 <Col >
                     <Form onSubmit={sendEmail}>
-                        <h2>CONTACT ME </h2>
+                        <h2 className='contact-title'>CONTACT ME </h2>
                         <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
                             <Form.Label>Email address</Form.Label>
                             <Form.Control type="email" placeholder="name@example.com" />
