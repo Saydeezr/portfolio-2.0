@@ -11,11 +11,11 @@ function Footer() {
                             <i className="fab fa-linkedin fa-2x icon-footer"></i>
                         </a>
                     </div>
-                    <ul className="list-inline mb-0 pt-4">
+                    <ul className="list-inline mb-0 pt-4 footer-home">
                         <li className="list-inline-item ">
                             <a href="#" className="btn-link">Home</a>
                         </li>
-                        <li className="list-inline-item me-4">
+                        <li className="list-inline-item me-4 footer-home">
                             <a href="#" className="btn-link">Top</a>
                         </li>
                     </ul>

@@ -380,3 +380,8 @@ body {
  .icon-footer:hover{
   color: #585853;
  }
+
+ .footer-home{
+  font-family:"Bodoni Moda SC", serif;
+  font-weight: 600;
+ }
