@@ -1,7 +1,7 @@
 function Footer() {
     return(
         <div className="rounded-lg footer-container">
-            <div className="container pb-4">
+            {/* <div className="container pb-4"> */}
                 <div className="d-flex justify-content-between align-items-center">
                     <div>
                         <a href="https://github.com/Saydeezr/" target="_blank" rel="noopener noreferrer">
@@ -22,7 +22,7 @@ function Footer() {
                 </div>
                 <hr className="my-4" />
                 <span className="d-block text-center text-muted">© 2024 Portfolio Rights to Author</span>
-            </div>
+            {/* </div> */}
         </div>
     )
 }
