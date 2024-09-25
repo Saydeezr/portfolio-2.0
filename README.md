@@ -19,7 +19,5 @@ HTML
 ## Link
 https://bejewelled-lolly-e87be9.netlify.app/
 
-![image](https://github.com/user-attachments/assets/8b2bb66f-4b84-4db9-ac0a-6432822e2908)
-
-https://drive.google.com/file/d/1TLnAkhu4DVLOMSiw77-KIs-BGmTUcYMg/view
+![Portfolio](https://github.com/user-attachments/assets/f4148a9d-a299-4bf3-8a08-17a36e5a7cab)
 
